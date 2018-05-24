@@ -12,7 +12,6 @@ export const adapter: EntityAdapter<Product> = createEntityAdapter<Product>({
     sortComparer: false
 });
 
-
 export const initialState: State = adapter.getInitialState({
     // additional entities state properties
     selectedProductId: null
